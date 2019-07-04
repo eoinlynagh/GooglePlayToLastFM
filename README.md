@@ -1,6 +1,5 @@
 # GooglePlayToLastFM
-original javascript file (it is slightly edited here however): https://gist.github.com/jmiserez/c9a9a0f41e867e5ebb75
-///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
 1. Follow the instructions in the javascript file, post into a .txt file and open with excel, and save as old.csv.
 
 2. Run the python file in the same directory as the csv file, and it will autogenerate csv files the approriate size to prevent you from going over on your submissions for the day. If you have more than 8000 it will take you more than 1 day to upload them all.
@@ -18,3 +17,5 @@ original javascript file (it is slightly edited here however): https://gist.gith
 4. Happy scrobbling
 
 **As a note, this should work in theory with any csv file for any music service, you might just have to adjust the numbers the pyhton file uses for indexing (line 53 and 60)
+
+original javascript file (it is slightly edited here however): https://gist.github.com/jmiserez/c9a9a0f41e867e5ebb75
