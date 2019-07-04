@@ -4,14 +4,22 @@
 
 2. Run the python file in the same directory as the csv file, and it will autogenerate csv files the approriate size to prevent you from going over on your submissions for the day. If you have more than 8000 it will take you more than 1 day to upload them all.
 
-3. Download this: https://github.com/coczero/Last.fm-Scrubbler-WPF \n
-    adjust the settings in CSV scrobbler to match this: \n
+3. Download this: https://github.com/coczero/Last.fm-Scrubbler-WPF
+
+    adjust the settings in CSV scrobbler to match this:
+    
         Artist Field -- 0
+        
         Album Field -- 1
+        
         Track Field -- 2
+        
         Timestamp -- 3
+        
         Album Artist (idk what this is) -- 0
+        
         Duration -- 3
+        
         Delimiters -- Don't changes
         
 4. Happy scrobbling
