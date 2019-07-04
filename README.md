@@ -5,7 +5,7 @@
 2. Run the python file in the same directory as the csv file, and it will autogenerate csv files the approriate size to prevent you from going over on your submissions for the day. If you have more than 8000 it will take you more than 1 day to upload them all.
     - It has not worked on songs that I uploaded, but the python should output all the failed songs, and maybe you can troubleshoot
 
-3. Download this: https://github.com/coczero/Last.fm-Scrubbler-WPF and then adjust the settings in CSV scrobbler section to match this:
+3. Download this: https://github.com/coczero/Last.fm-Scrubbler-WPF/releases and then adjust the settings in CSV scrobbler section to match this:
     
         Artist Field -- 0
         
