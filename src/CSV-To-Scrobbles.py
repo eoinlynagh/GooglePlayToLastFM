@@ -57,10 +57,12 @@ with open("old.csv","r") as f:
                         name = "new"+str(num)+".csv"
                         new=open(name,"w")
                         num += 1
-                    new.write(song[0]+","+song[1]+","+song[2]+","+song[3]+","+song[5]+","+song[6])
+                    if(len(song) == 7):
+                        new.write(song[0]+","+song[1]+","+song[2]+","+song[3]+","+song[5]+","+song[6])
+                    else:
+                        raise("song did not parse properly")
         except:
-            print(song[0])
-            print(song[2])
-            print(song[3])
-            print(song[4])
+            print("song failed:")
+            print("\t artist: " + song[0])
+            print("\t   name: " + song[1] + "\n")
             continue
