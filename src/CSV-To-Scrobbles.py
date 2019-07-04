@@ -36,7 +36,7 @@ with open("old.csv","r") as f:
             for _ in count:
                 if(_ != count[1]):
                     for x in _.split(","):
-                        if(not not x):
+                        if(x):
                             songConst.append(x)
                 else:
                     songConst.append("\""+_+"\"")
