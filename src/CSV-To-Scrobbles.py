@@ -57,7 +57,6 @@ with open("old.csv","r") as f:
                         name = "new"+str(num)+".csv"
                         new=open(name,"w")
                         num += 1
-                        print("new")
                     new.write(song[0]+","+song[1]+","+song[2]+","+song[3]+","+song[5]+","+song[6])
         except:
             print(song[0])
