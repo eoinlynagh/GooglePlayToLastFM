@@ -12,7 +12,7 @@
         
         Track Field -- 2
         
-        Timestamp -- 3
+        Timestamp (just sets it to today) -- 3
         
         Album Artist (idk what this is) -- 0
         
