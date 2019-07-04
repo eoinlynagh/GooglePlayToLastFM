@@ -24,30 +24,29 @@
 # For more information, please refer to <http://unlicense.org>
 
 new=open("new.csv","w")
-songs = [[]]
+songs = []
 c = 0
 num = 1
 with open("old.csv","r") as f:
     for line in f:
-        songConst = []
+        songConstructor = []
         #if your song/artist/whatever has more than one comma you are out of luck, that should be unusual though
-        count=line.split("\"")
-        if(len(count) == 3):
-            for _ in count:
-                if(_ != count[1]):
-                    for x in _.split(","):
+        lineSplitQuotes=line.split("\"")
+        if(len(lineSplitQuotes) == 3):
+            for value in lineSplitQuotes:
+                if(value != lineSplitQuotes[1]): #split around comma
+                    for x in value.split(","):
                         if(x):
-                            songConst.append(x)
+                            songConstructor.append(x)
                 else:
-                    songConst.append("\""+_+"\"")
-            songs.append(songConst)
-        elif(len(count) == 1):
+                    songConstructor.append("\""+value+"\"")
+            songs.append(songConstructor)
+        elif(len(lineSplitQuotes) == 1):
             vals=line.split(",")
-            for _ in vals:
-                if(_):
-                    songConst.append(_)
-            songs.append(songConst)
-    songs.pop(0)
+            for value in vals:
+                if(value):
+                    songConstructor.append(value)
+            songs.append(songConstructor)
     for song in songs:
         try:
             for i in range(0,int(song[4])+1):
