@@ -23,6 +23,6 @@
         
 4. Select the one of the csv files (or only one if you have less than 8000) and enjoy lastfm
 
-As a note, this should work in theory with any csv file for any music service, you might just have to adjust the numbers the pyhton file uses for indexing (line 53 and 60), but you will have to change the columns to match how they are given in step 3
+As a note, this should work in theory with any csv file for any music service, you might just have to adjust the numbers the pyhton file uses for indexing (line 53 and 60), or you will have to change the columns to match how they are given in step 3
 
 **original javascript file (it is slightly edited here however): https://gist.github.com/jmiserez/c9a9a0f41e867e5ebb75**
