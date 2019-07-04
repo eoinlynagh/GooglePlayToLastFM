@@ -16,6 +16,6 @@
         
 4. Happy scrobbling
 
-**As a note, this should work in theory with any csv file for any music service, you might just have to adjust the numbers the pyhton file uses for indexing (line 53 and 60)
+As a note, this should work in theory with any csv file for any music service, you might just have to adjust the numbers the pyhton file uses for indexing (line 53 and 60)
 
-original javascript file (it is slightly edited here however): https://gist.github.com/jmiserez/c9a9a0f41e867e5ebb75
+**original javascript file (it is slightly edited here however): https://gist.github.com/jmiserez/c9a9a0f41e867e5ebb75**
