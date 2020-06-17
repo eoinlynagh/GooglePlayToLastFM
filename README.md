@@ -3,7 +3,7 @@
 1. Follow the instructions in the javascript file, paste the data into a file called "old.csv" and save it.   
     - MAKE SURE TO USE THE songsToText("all", true); function to get the pastable data
 
-2. Run the python file in the same directory as the csv file, and it will autogenerate csv files the approriate size to prevent you from going over on your submissions for the day. If you have more than 8000 it will take you more than 1 day to upload them all.
+2. Run the python file in the same directory as the csv file, and it will autogenerate csv files the approriate size to prevent you from going over on your submissions for the day. If you have more than 8000 it will take you more than 1 day to upload them all, this is do to a limitation of the tool we use to upload the songs to last.fm
     - It now works on most songs, please let me know if any fail
 
 3. Download this: https://github.com/coczero/Last.fm-Scrubbler-WPF/releases and then adjust the settings in CSV scrobbler section to match this:
