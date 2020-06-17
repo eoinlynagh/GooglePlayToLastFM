@@ -3,7 +3,7 @@
 1. Follow the instructions in the javascript file, post into a .txt file and open with excel, and save as *old.csv.*
 
 2. Run the python file in the same directory as the csv file, and it will autogenerate csv files the approriate size to prevent you from going over on your submissions for the day. If you have more than 8000 it will take you more than 1 day to upload them all.
-    - It has not worked on songs that I uploaded, but the python should output all the failed songs, and maybe you can troubleshoot
+    - It now works on most songs, please let me know if any fail
 
 3. Download this: https://github.com/coczero/Last.fm-Scrubbler-WPF/releases and then adjust the settings in CSV scrobbler section to match this:
     
